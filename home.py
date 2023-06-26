@@ -13,4 +13,5 @@ def process_form():
     return render_template('home.html', message=message)
 
 if __name__ == '__main__':
+    app.debug = True
     app.run()
